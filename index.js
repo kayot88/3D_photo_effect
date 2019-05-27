@@ -10,6 +10,7 @@ img.width = window.innerWidth;
 img.height = window.innerHeight;
 app.stage.addChild(img);
 
+
 depthMap = new PIXI.Sprite.from('pikachu-map.jpg');
 app.stage.addChild(depthMap);
 displacementFilter = new PIXI.filters.DisplacementFilter(depthMap);
